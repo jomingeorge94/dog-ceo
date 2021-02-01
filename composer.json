@@ -1,0 +1,17 @@
+{
+    "name": "jomingeorge/dog-ceo",
+    "description": "A PHP package using composer. Using the dog ceo API to retrieve the full list of dog breeds",
+    "authors": [
+        {
+            "name": "jomingeorge",
+            "email": "jomink@yahoo.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"DogCeo\\": "src/"},
+        "files": ["src/helpers.php"]
+    },
+    "require": {
+        "php": "^7.1.3"
+    }
+}
